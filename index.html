@@ -3,30 +3,37 @@
 	<head>
         <meta charset="utf-8">
 		<title>World Database Lookup</title>
-
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 		<!-- you can modify this as needed or to your preference -->
 		<link href="world.css" type="text/css" rel="stylesheet" />
 
 		<!-- you write this -->
 		<script src="world.js" type="text/javascript"></script>
+
 	</head>
 
-	<body>
-		<header>
-			<h1>World Database Lookup</h1>
-		</header>
+	<body style="background-image: linear-gradient(to right , #dfe6e9,  #54a0ff);">
+		<div class="icon">
+			<i class="fas fa-globe fa-10x"></i>
+		</div>
+		<div class="container">
+			<header class="header">				
+				<h1>World Database Lookup</h1>
+			</header>
+		</div>
 
 		<main>
-			<form action="" type="get">
-				<div id="controls">
-					<label for="country">Country:</label>
+			<form class="form" action="" type="get">
+				<div id="controls" class="input controls">
 					<input id="country" type="search" name="country" placeholder="Enter country name" />
+				</div>
+				<div style="text-align: center; padding:18px">
 					<button id="lookup" type="button">Lookup</button>
 				</div>
 			</form>
 				
 			
-			<div id="result">
+			<div id="result" >
 				<!-- countries will appear here -->
 			</div>
 		</main>

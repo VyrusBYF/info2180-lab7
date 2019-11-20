@@ -1,1 +1,167 @@
 /* Add your own styles */
+.header{
+	text-align: center;
+	border-radius: 80%;
+	border: groove black 1.5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	color: black;
+	background-image: linear-gradient(to right , #dfe6e9,  #54a0ff);
+}
+
+.form{
+	padding: 30px;
+}
+
+.icon {
+	text-align: center;
+	padding: 10px;
+	color: #54a0ff;
+}
+
+h1{
+	font-family: "Courier New";
+	font-style: italic;
+}
+
+.controls{
+	text-align: center;
+	padding: 10px;
+}
+
+.container{
+	
+}
+
+.table{
+	width:100%;
+	background-color: #393939;
+	border-radius: 10px;
+	overflow: hidden;
+	border-spacing: 10px;
+}
+
+.table-head {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.table-body {
+  max-height: 585px;
+  overflow: auto;
+}
+
+.head{
+	text-align: left;
+	font-family: "Courier New";
+	font-size: 18px;
+	color: #54a0ff;
+	line-height: 1.4;
+	text-transform: uppercase;
+	background-color: #393939;
+	border-bottom: solid white 5px;
+}
+.row{
+	font-family: "Arial Narrow";
+	font-size: 17px;
+	color: #808080;
+	line-height: 1.4;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////
+[ Scroll bar ]*/
+.js-pscroll {
+  position: relative;
+  overflow: hidden;
+}
+
+.scrollbar .ps__rail-y {
+  width: 9px;
+  background-color: transparent;
+  opacity: 1 !important;
+  right: 5px;
+}
+
+.scrollbar .ps__rail-y::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  width: 100%;
+  height: calc(100% - 30px);
+  left: 0;
+  top: 15px;
+}
+
+.scrollbar .ps__rail-y .ps__thumb-y {
+  width: 100%;
+  right: 0;
+  background-color: transparent;
+  opacity: 1 !important;
+}
+
+.scrollbar .ps__rail-y .ps__thumb-y::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  height: calc(100% - 30px);
+  left: 0;
+  top: 15px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////
+[Input Styling]*/
+
+input{
+	padding: 5px;
+	text-align: center;
+	width: 14%;
+	background: $color;
+	background-color: transparent;
+	border-top: solid black 0.5px;
+	border-bottom: solid black 0.5px;
+	border-left: none;
+	border-right: none;
+	color: #30336b;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button {
+	font-family: "Arial Narrow";
+	font-size: 17px;
+	background: #dff9fb;
+	cursor: pointer;
+	border-radius: 7px;
+	border:none;
+	padding: 3px;
+	width: 16%;
+	color: #30336b;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+	&:hover { 
+	transform: translateY(-3px);
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+	}
+}
+
+button:focus, button:active:focus, button.active:focus {
+    outline: none !important;
+    outline-style: none !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #30336b;
+  opacity: 1; /* Firefox */
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
