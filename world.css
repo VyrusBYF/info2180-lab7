@@ -138,13 +138,13 @@ textarea:focus, input:focus{
 button {
 	font-family: "Arial Narrow";
 	font-size: 17px;
-	background: #dff9fb;
+	background: #30336b;
 	cursor: pointer;
 	border-radius: 7px;
 	border:none;
 	padding: 3px;
 	width: 16%;
-	color: #30336b;
+	color: #778beb ;
 	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
 	&:hover { 
 	transform: translateY(-3px);
